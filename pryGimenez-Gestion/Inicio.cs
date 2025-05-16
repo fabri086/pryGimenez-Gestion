@@ -16,5 +16,10 @@ namespace pryGimenez_Gestion
         {
             InitializeComponent();
         }
+
+        private void btnAceptar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
