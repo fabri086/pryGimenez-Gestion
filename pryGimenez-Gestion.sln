@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pryGimenez-Gestion", "pryGimenez-Gestion\pryGimenez-Gestion.csproj", "{D571B4D3-8BFC-4758-AFB1-23201E50199D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D571B4D3-8BFC-4758-AFB1-23201E50199D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D571B4D3-8BFC-4758-AFB1-23201E50199D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D571B4D3-8BFC-4758-AFB1-23201E50199D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D571B4D3-8BFC-4758-AFB1-23201E50199D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2876A733-3C01-41F0-91A9-BF0D5ADC5C30}
+	EndGlobalSection
+EndGlobal
