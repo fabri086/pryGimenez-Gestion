@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtUsuario = new System.Windows.Forms.TextBox();
+            this.btnAceptar = new System.Windows.Forms.Button();
             this.txtContraseña = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.btnAceptar = new System.Windows.Forms.Button();
+            this.txtUsuario = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -52,21 +52,16 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Ingreso";
             // 
-            // label1
+            // btnAceptar
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(24, 48);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "usuario:";
-            // 
-            // txtUsuario
-            // 
-            this.txtUsuario.Location = new System.Drawing.Point(121, 39);
-            this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(141, 20);
-            this.txtUsuario.TabIndex = 1;
+            this.btnAceptar.BackColor = System.Drawing.Color.White;
+            this.btnAceptar.Location = new System.Drawing.Point(159, 211);
+            this.btnAceptar.Name = "btnAceptar";
+            this.btnAceptar.Size = new System.Drawing.Size(103, 38);
+            this.btnAceptar.TabIndex = 4;
+            this.btnAceptar.Text = "Aceptar";
+            this.btnAceptar.UseVisualStyleBackColor = false;
+            this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
             // 
             // txtContraseña
             // 
@@ -84,15 +79,21 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Contraseña:";
             // 
-            // btnAceptar
+            // txtUsuario
             // 
-            this.btnAceptar.BackColor = System.Drawing.Color.White;
-            this.btnAceptar.Location = new System.Drawing.Point(159, 211);
-            this.btnAceptar.Name = "btnAceptar";
-            this.btnAceptar.Size = new System.Drawing.Size(103, 38);
-            this.btnAceptar.TabIndex = 4;
-            this.btnAceptar.Text = "Aceptar";
-            this.btnAceptar.UseVisualStyleBackColor = false;
+            this.txtUsuario.Location = new System.Drawing.Point(121, 39);
+            this.txtUsuario.Name = "txtUsuario";
+            this.txtUsuario.Size = new System.Drawing.Size(141, 20);
+            this.txtUsuario.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(24, 48);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(44, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "usuario:";
             // 
             // Inicio
             // 
